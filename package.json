@@ -1,0 +1,63 @@
+{
+  "name": "capacitor-mobile-app",
+  "version": "1.0.0",
+  "description": "Enterprise cross-platform mobile app with Capacitor, Vue 3, and native bridges",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "sync": "npx cap sync",
+    "ios": "npx cap run ios",
+    "android": "npx cap run android",
+    "ios:build": "cd ios && xcodebuild -workspace App.xcworkspace -scheme App -configuration Release archive",
+    "android:build": "cd android && ./gradlew assembleRelease",
+    "lint": "eslint src --ext .ts,.vue",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5",
+    "pinia": "^2.1.7",
+    "axios": "^1.6.5",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/camera": "^6.0.0",
+    "@capacitor/geolocation": "^6.0.0",
+    "@capacitor/network": "^6.0.0",
+    "@capacitor/push-notifications": "^6.0.0",
+    "@capacitor/splash-screen": "^6.0.0",
+    "@capacitor/status-bar": "^6.0.0",
+    "@aparajita/capacitor-biometric-auth": "^6.0.0",
+    "capacitor-secure-storage-plugin": "^0.9.0",
+    "idb": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vue-tsc": "^1.8.27",
+    "vitest": "^1.2.0",
+    "@types/node": "^20.10.6",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0"
+  },
+  "keywords": [
+    "capacitor",
+    "vue3",
+    "mobile",
+    "ios",
+    "android",
+    "cross-platform",
+    "pwa",
+    "offline-first"
+  ],
+  "author": "D.V. Sandeep <dvsandeep599@gmail.com>",
+  "license": "MIT"
+}
