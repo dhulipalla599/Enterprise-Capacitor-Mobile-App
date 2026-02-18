@@ -1,6 +1,6 @@
 # Enterprise Capacitor Mobile App
 
-Production-ready cross-platform mobile framework with Vue 3, TypeScript, and native bridges. Deployed at Hughes (IoT), Prologis (Logistics), and PG&E (Energy).
+Production-ready cross-platform mobile framework with Vue 3, TypeScript, and native bridges.
 
 ## Features
 
@@ -428,20 +428,13 @@ npx cap add android
 npx cap sync
 ```
 
-## Production Deployments
-
-**Hughes IoT Platform:** 500+ field technicians  
-**Prologis Logistics:** Warehouse inventory management  
-**PG&E Energy:** Smart meter configuration & readings
-
 ## Related Article
 
-📄 [Cross-Platform Mobile Development with Capacitor: Bridging Web and Native](./docs/ARTICLE.md)
+
 
 ## Author
 
-**D.V. Sandeep**  
-Senior Full Stack Engineer  
+**D.V. Sandeep**   
 [LinkedIn](https://linkedin.com/in/dhullipalla-sandeep) | [Email](mailto:dvsandeep599@gmail.com)
 
 ## License
